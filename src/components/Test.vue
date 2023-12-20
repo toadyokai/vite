@@ -8,6 +8,7 @@ const time = ref(dayjs().startOf('month').add(1, 'day').set('year', 2018).format
 const uuid = ref(_.uniqueId())
 
 </script>
+
 <template>
   <Input placeholder="input some word."/>
   <Divider></Divider>
